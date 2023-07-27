@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Lista Utenti</h1>
+    {% for username in users %}
+    <ul>
+        <li> { % username %} </li>
+    </ul>
+        {% endfor %}
+
+</body>
+</html>

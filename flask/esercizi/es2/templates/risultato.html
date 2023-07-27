@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ordine</title>
+    <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+       background-color: #F0D04C;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    select, input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    form input[type="submit"] {
+      margin-top: 20px;
+    }
+
+</style>
+</head>
+<body>
+  <h2>Il suo ordine è</h2>
+  <p>Il suo ordine è composto da {{ primo }}, {{ secondo }}, {{ contorno }}, {{ dolce }}, e il totale è {{ prezzo }}€</p>
+
+   <a href="/">HomePage</a>
+</body>
+</html>

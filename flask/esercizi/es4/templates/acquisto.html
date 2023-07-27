@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Riepilogo Acquisto</title>
+    <style>
+  body{width: 200px;
+height: 200px;
+background: #95FFEB;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -100px;
+margin-left: -100px;}
+    </style>
+</head>
+<body>
+    <h1>Riepilogo Acquisto</h1>
+    <p>Email: {{ session["email"] }}</p>
+    <p>Prodotti da Banco: {{ prodotti_banco }}</p>
+    <p>Prodotti Freschi: {{ prodotti_freschi }}</p>
+    <p>Prodotti Frigo: {{ prodotti_frigo }}</p>
+    <p>Elettrodomestici: {{ elettrodomestici }}</p>
+    <p>Totale: {{ totale }}</p>
+    <p>Data Acquisto: {{ local_date }}</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Registra Utente</title>
+    <style></style>
+</head>
+<body>
+    <h1>Registra Utente</h1>
+    <form method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Salva Dati</button><br>
+         <button onclick="window.location.href='{{ url_for('visualizza_dati') }}'">Visualizza statistiche</button>
+    </form>
+</body>
+</html>
